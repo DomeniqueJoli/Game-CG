@@ -1,0 +1,368 @@
+{
+	"name": "eCuca",
+	"events": [
+		{
+			"eventType": "variable",
+			"name": "vida",
+			"type": "number",
+			"initialValue": "1",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 851851072217725
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-key-pressed",
+					"objectClass": "Teclado",
+					"sid": 978987873805560,
+					"parameters": {
+						"key": 37
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-mirrored",
+					"objectClass": "Cuca",
+					"sid": 628673217324905,
+					"parameters": {
+						"state": "mirrored"
+					}
+				}
+			],
+			"sid": 524374032827825
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-key-pressed",
+					"objectClass": "Teclado",
+					"sid": 433669421324067,
+					"parameters": {
+						"key": 39
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-mirrored",
+					"objectClass": "Cuca",
+					"sid": 190402655042174,
+					"parameters": {
+						"state": "not-mirrored"
+					}
+				}
+			],
+			"sid": 918607795601744
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Cuca",
+					"sid": 730966990588336,
+					"parameters": {
+						"object": "caldeirao_cuca"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-position",
+					"objectClass": "Cuca",
+					"sid": 198494828206331,
+					"parameters": {
+						"x": "10",
+						"y": "26"
+					}
+				}
+			],
+			"sid": 158297157209472
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Cuca",
+					"sid": 290574279036266,
+					"parameters": {
+						"object": "caldeirao_cuca"
+					}
+				}
+			],
+			"actions": [],
+			"sid": 229490697495736
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "diamante",
+					"sid": 719791228184166,
+					"parameters": {
+						"object": "Cuca"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "diamante",
+					"sid": 461722473948475
+				}
+			],
+			"sid": 593824052467199
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-moving",
+					"objectClass": "Cuca",
+					"sid": 738694894339712,
+					"behaviorType": "Plataforma"
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "Cuca",
+					"sid": 371025619167408,
+					"parameters": {
+						"animation": "\"run\"",
+						"from": "beginning"
+					}
+				}
+			],
+			"sid": 657956717422317
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-stopped",
+					"objectClass": "Cuca",
+					"sid": 794129964708807,
+					"behaviorType": "Plataforma"
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "Cuca",
+					"sid": 543208534082873,
+					"parameters": {
+						"animation": "\"idle\"",
+						"from": "beginning"
+					}
+				}
+			],
+			"sid": 382078506598524
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-jumping",
+					"objectClass": "Cuca",
+					"sid": 970410957459922,
+					"behaviorType": "Plataforma"
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "Cuca",
+					"sid": 338420214710244,
+					"parameters": {
+						"animation": "\"jump\"",
+						"from": "beginning"
+					}
+				}
+			],
+			"sid": 560299195674018
+		},
+		{
+			"eventType": "group",
+			"disabled": false,
+			"title": "Inimigo",
+			"description": "",
+			"isActiveOnStart": true,
+			"children": [],
+			"sid": 900025235754951
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-instance-variable",
+					"objectClass": "morcego_sprite",
+					"sid": 114443013138594,
+					"parameters": {
+						"instance-variable": "direcao",
+						"comparison": 0,
+						"value": "\"Direita\""
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "simulate-control",
+					"objectClass": "morcego_sprite",
+					"sid": 223105693857806,
+					"behaviorType": "Plataforma",
+					"parameters": {
+						"control": "right"
+					}
+				},
+				{
+					"id": "set-mirrored",
+					"objectClass": "morcego_sprite",
+					"sid": 474859044115781,
+					"parameters": {
+						"state": "mirrored"
+					}
+				}
+			],
+			"sid": 659984426636436
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-instance-variable",
+					"objectClass": "morcego_sprite",
+					"sid": 425717209897285,
+					"parameters": {
+						"instance-variable": "direcao",
+						"comparison": 0,
+						"value": "\"Esquerda\""
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "simulate-control",
+					"objectClass": "morcego_sprite",
+					"sid": 758243130559674,
+					"behaviorType": "Plataforma",
+					"parameters": {
+						"control": "left"
+					}
+				},
+				{
+					"id": "set-mirrored",
+					"objectClass": "morcego_sprite",
+					"sid": 886127213970319,
+					"parameters": {
+						"state": "not-mirrored"
+					}
+				}
+			],
+			"sid": 367314361655026
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "morcego_sprite",
+					"sid": 781526559603073,
+					"parameters": {
+						"object": "Sensor_Esquerda"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-instvar-value",
+					"objectClass": "morcego_sprite",
+					"sid": 257344587691028,
+					"parameters": {
+						"instance-variable": "direcao",
+						"value": "\"Esquerda\""
+					}
+				}
+			],
+			"sid": 679749603374558
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "morcego_sprite",
+					"sid": 277994372962704,
+					"parameters": {
+						"object": "Sensor_Direita"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-instvar-value",
+					"objectClass": "morcego_sprite",
+					"sid": 111436719703962,
+					"parameters": {
+						"instance-variable": "direcao",
+						"value": "\"Direita\""
+					}
+				}
+			],
+			"sid": 871717424024163
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Cuca",
+					"sid": 362495285939339,
+					"parameters": {
+						"object": "morcego_sprite"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "restart-layout",
+					"objectClass": "System",
+					"sid": 207718970706882
+				}
+			],
+			"sid": 177734773498336
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "portal_saida",
+					"sid": 552293030284646,
+					"parameters": {
+						"object": "Cuca"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 733164822831546,
+					"parameters": {
+						"layout": "TelaLevels"
+					}
+				}
+			],
+			"sid": 420979453396348
+		}
+	],
+	"sid": 773531405745280
+}

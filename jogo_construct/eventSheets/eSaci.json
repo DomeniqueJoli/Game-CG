@@ -1,0 +1,225 @@
+{
+	"name": "eSaci",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-moving",
+					"objectClass": "Sprite9",
+					"sid": 155671147017263,
+					"behaviorType": "Plataforma"
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "Sprite9",
+					"sid": 585595396223797,
+					"parameters": {
+						"animation": "\"run\"",
+						"from": "beginning"
+					}
+				}
+			],
+			"sid": 276317675304068
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-jumping",
+					"objectClass": "Sprite9",
+					"sid": 816160979112938,
+					"behaviorType": "Plataforma"
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "Sprite9",
+					"sid": 274998541962981,
+					"parameters": {
+						"animation": "\"jump\"",
+						"from": "beginning"
+					}
+				}
+			],
+			"sid": 211869511406456
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-stopped",
+					"objectClass": "Sprite9",
+					"sid": 314553542463791,
+					"behaviorType": "Plataforma"
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "Sprite9",
+					"sid": 971244738385207,
+					"parameters": {
+						"animation": "\"idle\"",
+						"from": "beginning"
+					}
+				}
+			],
+			"sid": 144146515753875
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-key-pressed",
+					"objectClass": "Teclado",
+					"sid": 457813617600447,
+					"parameters": {
+						"key": 39
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-mirrored",
+					"objectClass": "Sprite9",
+					"sid": 393358559121066,
+					"parameters": {
+						"state": "not-mirrored"
+					}
+				}
+			],
+			"sid": 654012494025291
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-key-pressed",
+					"objectClass": "Teclado",
+					"sid": 185981980630394,
+					"parameters": {
+						"key": 37
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-mirrored",
+					"objectClass": "Sprite9",
+					"sid": 552201907124958,
+					"parameters": {
+						"state": "mirrored"
+					}
+				}
+			],
+			"sid": 755542966692955
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Sprite9",
+					"sid": 112185770096450,
+					"parameters": {
+						"object": "Sprite11"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "Sprite9",
+					"sid": 700810126733302
+				},
+				{
+					"id": "restart-layout",
+					"objectClass": "System",
+					"sid": 351766284397832
+				}
+			],
+			"sid": 138489691684118
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Sprite9",
+					"sid": 790888355636964,
+					"parameters": {
+						"object": "portal_saida"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "Sprite9",
+					"sid": 649328278787384
+				},
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 421407239864184,
+					"parameters": {
+						"layout": "TelaLevels"
+					}
+				}
+			],
+			"sid": 614359555373189
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Sprite9",
+					"sid": 675502278779037,
+					"parameters": {
+						"object": "diamante_vermelho"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "diamante_vermelho",
+					"sid": 518762357058819
+				}
+			],
+			"sid": 373333041425135
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Sprite9",
+					"sid": 108335154839508,
+					"parameters": {
+						"object": "Sprite12"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "Sprite9",
+					"sid": 372370543015441
+				},
+				{
+					"id": "restart-layout",
+					"objectClass": "System",
+					"sid": 888310662199792
+				}
+			],
+			"sid": 860548409680727
+		}
+	],
+	"sid": 871659996652511
+}

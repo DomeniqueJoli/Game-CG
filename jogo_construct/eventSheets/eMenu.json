@@ -1,0 +1,32 @@
+{
+	"name": "eMenu",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-object-clicked",
+					"objectClass": "Mouse",
+					"sid": 390697642430373,
+					"parameters": {
+						"mouse-button": "left",
+						"click-type": "clicked",
+						"object-clicked": "bt_start"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 473380056051305,
+					"parameters": {
+						"layout": "TelaLevels"
+					}
+				}
+			],
+			"sid": 402065351218238
+		}
+	],
+	"sid": 682483104532625
+}

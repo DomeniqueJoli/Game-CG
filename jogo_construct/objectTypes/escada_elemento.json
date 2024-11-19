@@ -1,0 +1,61 @@
+{
+	"name": "escada_elemento",
+	"plugin-id": "Sprite",
+	"sid": 778803019239539,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "solid",
+			"name": "Sólido",
+			"sid": 623216727847102
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 139,
+						"height": 46,
+						"originX": 0.4748201438848921,
+						"originY": 0.5652173913043478,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"fileType": "image/png",
+						"imageSpriteId": 7026094,
+						"collisionPoly": {
+							"points": [
+								0.10071942446043167,
+								0.021739130434782608,
+								0.8489208633093526,
+								0.043478260869565216,
+								1,
+								1,
+								0.22302158273381292,
+								0.8260869565217391,
+								0.05755395683453238,
+								0.630434782608696,
+								0.007194244604316547,
+								0.3695652173913043
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1,
+						"tag": ""
+					}
+				],
+				"sid": 837228495414226,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

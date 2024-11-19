@@ -1,0 +1,118 @@
+{
+	"name": "eIara",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-moving",
+					"objectClass": "Sprite13",
+					"sid": 273390045722340,
+					"behaviorType": "8Direções"
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "Sprite13",
+					"sid": 151320800002922,
+					"parameters": {
+						"animation": "\"run\"",
+						"from": "beginning"
+					}
+				}
+			],
+			"sid": 619614307672685
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-stopped",
+					"objectClass": "Sprite13",
+					"sid": 382622469717611,
+					"behaviorType": "Plataforma"
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "Sprite13",
+					"sid": 728991398546922,
+					"parameters": {
+						"animation": "\"idle\"",
+						"from": "beginning"
+					}
+				}
+			],
+			"sid": 791162654096990
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-key-pressed",
+					"objectClass": "Teclado",
+					"sid": 913296542458537,
+					"parameters": {
+						"key": 39
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "Sprite13",
+					"sid": 771111243785369,
+					"parameters": {
+						"animation": "\"run\"",
+						"from": "beginning"
+					}
+				},
+				{
+					"id": "set-mirrored",
+					"objectClass": "Sprite13",
+					"sid": 832752905926861,
+					"parameters": {
+						"state": "not-mirrored"
+					}
+				}
+			],
+			"sid": 935678800606896
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-key-pressed",
+					"objectClass": "Teclado",
+					"sid": 542507104392599,
+					"parameters": {
+						"key": 37
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "Sprite13",
+					"sid": 301836162540060,
+					"parameters": {
+						"animation": "\"run\"",
+						"from": "beginning"
+					}
+				},
+				{
+					"id": "set-mirrored",
+					"objectClass": "Sprite13",
+					"sid": 897803397416989,
+					"parameters": {
+						"state": "mirrored"
+					}
+				}
+			],
+			"sid": 725564651748365
+		}
+	],
+	"sid": 262391851004518
+}

@@ -1,0 +1,51 @@
+{
+	"name": "bg_saci",
+	"plugin-id": "Sprite",
+	"sid": 756102083292095,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 340,
+						"height": 180,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"fileType": "image/png",
+						"imageSpriteId": 9357153,
+						"collisionPoly": {
+							"points": [
+								0.0029239766081871343,
+								0.005494505494505495,
+								0.9970760233918129,
+								0.005494505494505495,
+								0.9970760233918129,
+								0.9945054945054945,
+								0.0029239766081871343,
+								0.9945054945054945
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1,
+						"tag": ""
+					}
+				],
+				"sid": 216675928918853,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

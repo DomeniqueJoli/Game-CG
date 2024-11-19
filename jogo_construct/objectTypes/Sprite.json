@@ -1,0 +1,56 @@
+{
+	"name": "Sprite",
+	"plugin-id": "Sprite",
+	"sid": 925527111920235,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [
+		{
+			"effectId": "depthstripe",
+			"name": "FaixaEmProfundidade"
+		}
+	],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 36,
+						"height": 35,
+						"originX": 0.7222222222222222,
+						"originY": 2.057142857142857,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"fileType": "image/png",
+						"imageSpriteId": 4376470,
+						"collisionPoly": {
+							"points": [
+								0.027777777777777776,
+								0.02857142857142857,
+								0.9722222222222222,
+								0.02857142857142857,
+								0.9722222222222222,
+								0.9714285714285712,
+								0.027777777777777776,
+								0.9714285714285712
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1,
+						"tag": ""
+					}
+				],
+				"sid": 895122963972319,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

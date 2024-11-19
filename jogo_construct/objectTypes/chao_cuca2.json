@@ -1,0 +1,63 @@
+{
+	"name": "chao_cuca2",
+	"plugin-id": "Sprite",
+	"sid": 694844246146696,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 54,
+						"height": 22,
+						"originX": 0.48148148148148145,
+						"originY": 0.5681818181818182,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"fileType": "image/png",
+						"imageSpriteId": 9850668,
+						"collisionPoly": {
+							"points": [
+								0.7222222222222222,
+								0.09090909090909091,
+								0.8148148148148148,
+								0.09090909090909091,
+								0.9814814814814815,
+								0.13636363636363635,
+								0.9814814814814815,
+								0.8636363636363636,
+								0.8703703703703703,
+								0.9090909090909091,
+								0.09259259259259259,
+								0.9545454545454546,
+								0.09259259259259259,
+								0.8636363636363636,
+								0.1111111111111111,
+								0.7272727272727273,
+								0.2777777777777778,
+								0.2727272727272727,
+								0.3888888888888889,
+								0.13636363636363635
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1,
+						"tag": ""
+					}
+				],
+				"sid": 984071764277487,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

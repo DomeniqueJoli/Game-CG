@@ -1,0 +1,67 @@
+{
+	"name": "diamante",
+	"plugin-id": "Sprite",
+	"sid": 338473152194434,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 1500,
+						"height": 1500,
+						"originX": 0.5,
+						"originY": 1,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"fileType": "image/png",
+						"imageSpriteId": 3500387,
+						"collisionPoly": {
+							"points": [
+								0.33,
+								0.21,
+								0.63,
+								0.21,
+								0.71,
+								0.25,
+								0.83,
+								0.37,
+								0.83,
+								0.41,
+								0.81,
+								0.45,
+								0.51,
+								0.75,
+								0.45,
+								0.75,
+								0.15,
+								0.45,
+								0.13,
+								0.41,
+								0.13,
+								0.37,
+								0.25,
+								0.25
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1,
+						"tag": ""
+					}
+				],
+				"sid": 411037292042766,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}
