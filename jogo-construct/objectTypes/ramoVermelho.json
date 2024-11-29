@@ -1,0 +1,61 @@
+{
+	"name": "ramoVermelho",
+	"plugin-id": "Sprite",
+	"sid": 233175871509605,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 272,
+						"height": 512,
+						"originX": 0.5,
+						"originY": 1,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"fileType": "image/png",
+						"imageSpriteId": 7876555,
+						"collisionPoly": {
+							"points": [
+								0.261029593227731,
+								0.009765648634896595,
+								0.8860294117647058,
+								0.060546875,
+								0.9963235294117647,
+								0.353515625,
+								0.9963235294117647,
+								0.470703125,
+								0.8860294117647058,
+								0.880859375,
+								0.7757352941176471,
+								0.939453125,
+								0.5551470588235294,
+								0.998046875,
+								0.003676470588235294,
+								1,
+								0.11397058823529412,
+								0.294921875
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1,
+						"tag": ""
+					}
+				],
+				"sid": 812463769036761,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

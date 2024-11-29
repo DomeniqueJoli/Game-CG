@@ -1,0 +1,61 @@
+{
+	"name": "portao",
+	"plugin-id": "Sprite",
+	"sid": 448360621957583,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 812,
+						"height": 662,
+						"originX": 0.5554187192118226,
+						"originY": 0.5453172205438066,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"fileType": "image/png",
+						"imageSpriteId": 8565361,
+						"collisionPoly": {
+							"points": [
+								0.8879310344827587,
+								0.0015105740181268882,
+								0.9618226600985221,
+								0.09214501510574018,
+								0.9987684729064039,
+								0.2054380664652568,
+								0.9987684729064039,
+								0.8851963746223565,
+								0.9618226600985221,
+								0.9984894259818731,
+								0.7770935960591133,
+								0.9984894259818731,
+								0.0012315270935960591,
+								0.9758308157099698,
+								0.0012315270935960591,
+								0.1148036253776435,
+								0.07512315270935961,
+								0.02416918429003021
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1,
+						"tag": ""
+					}
+				],
+				"sid": 442486558487443,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

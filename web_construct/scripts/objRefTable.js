@@ -7,6 +7,7 @@ self.C3_GetObjectRefTable = function () {
 		C3.Plugins.Keyboard,
 		C3.Behaviors.solid,
 		C3.Behaviors.Physics,
+		C3.Behaviors.EightDir,
 		C3.Plugins.Keyboard.Cnds.OnKey,
 		C3.Plugins.Sprite.Acts.SetMirrored,
 		C3.Plugins.Sprite.Cnds.OnCollision,
@@ -23,7 +24,7 @@ self.C3_GetObjectRefTable = function () {
 		C3.Plugins.System.Acts.RestartLayout,
 		C3.Plugins.System.Acts.GoToLayout,
 		C3.Plugins.Mouse.Cnds.OnObjectClicked,
-		C3.Plugins.Mouse.Cnds.OnClick
+		C3.Behaviors.EightDir.Cnds.IsMoving
 	];
 };
 self.C3_JsPropNameTable = [
@@ -64,6 +65,18 @@ self.C3_JsPropNameTable = [
 	{Sprite11: 0},
 	{element_escada: 0},
 	{diamante_vermelho: 0},
+	{Sprite12: 0},
+	{"8Direções": 0},
+	{Sprite13: 0},
+	{diamanteiara: 0},
+	{ramoVermelho: 0},
+	{ramoVerde: 0},
+	{ramoverde2: 0},
+	{ramoVermelhoP: 0},
+	{portao: 0},
+	{Sprite14: 0},
+	{portalNovo: 0},
+	{iara: 0},
 	{vida: 0}
 ];
 
@@ -100,5 +113,16 @@ self.InstanceType = {
 	escada_elemento: class extends self.ISpriteInstance {},
 	Sprite11: class extends self.ISpriteInstance {},
 	element_escada: class extends self.ISpriteInstance {},
-	diamante_vermelho: class extends self.ISpriteInstance {}
+	diamante_vermelho: class extends self.ISpriteInstance {},
+	Sprite12: class extends self.ISpriteInstance {},
+	Sprite13: class extends self.ISpriteInstance {},
+	diamanteiara: class extends self.ISpriteInstance {},
+	ramoVermelho: class extends self.ISpriteInstance {},
+	ramoVerde: class extends self.ISpriteInstance {},
+	ramoverde2: class extends self.ISpriteInstance {},
+	ramoVermelhoP: class extends self.ISpriteInstance {},
+	portao: class extends self.ISpriteInstance {},
+	Sprite14: class extends self.ISpriteInstance {},
+	portalNovo: class extends self.ISpriteInstance {},
+	iara: class extends self.ISpriteInstance {}
 }

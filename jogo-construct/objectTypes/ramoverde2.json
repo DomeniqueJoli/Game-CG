@@ -1,0 +1,61 @@
+{
+	"name": "ramoverde2",
+	"plugin-id": "Sprite",
+	"sid": 902425657701106,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 272,
+						"height": 512,
+						"originX": 0.5,
+						"originY": 1,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"fileType": "image/png",
+						"imageSpriteId": 9454251,
+						"collisionPoly": {
+							"points": [
+								0.7757352941176471,
+								0.001953125,
+								0.8860294117647058,
+								0.294921875,
+								0.9963235294117647,
+								0.998046875,
+								0.44485294117647056,
+								0.998046875,
+								0.22426470588235295,
+								0.939453125,
+								0.11397058823529412,
+								0.880859375,
+								0.003676470588235294,
+								0.470703125,
+								0.003676470588235294,
+								0.353515625,
+								0.11397058823529412,
+								0.060546875
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1,
+						"tag": ""
+					}
+				],
+				"sid": 856302086131635,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}
