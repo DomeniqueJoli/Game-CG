@@ -1,0 +1,61 @@
+{
+	"name": "ramoVerde",
+	"plugin-id": "Sprite",
+	"sid": 972594834110116,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 272,
+						"height": 512,
+						"originX": 0.5,
+						"originY": 1,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"fileType": "image/png",
+						"imageSpriteId": 5682700,
+						"collisionPoly": {
+							"points": [
+								0.7757352941176471,
+								0.001953125,
+								0.8860294117647058,
+								0.294921875,
+								0.8656046284915897,
+								0.9372830407027086,
+								0.5674016583459399,
+								0.9416232124016979,
+								0.5510617337888397,
+								0.8873697533099743,
+								0.46527771860599615,
+								0.7506511245888657,
+								0.003676470588235294,
+								0.470703125,
+								0.003676470588235294,
+								0.353515625,
+								0.11397058823529412,
+								0.060546875
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1,
+						"tag": ""
+					}
+				],
+				"sid": 163854755941057,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

@@ -112,6 +112,74 @@
 				}
 			],
 			"sid": 725564651748365
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Sprite13",
+					"sid": 217875581455634,
+					"parameters": {
+						"object": "ramoVermelho"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "Sprite13",
+					"sid": 770485532339944
+				},
+				{
+					"id": "restart-layout",
+					"objectClass": "System",
+					"sid": 987751650960922
+				}
+			],
+			"sid": 575988101961907
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Sprite13",
+					"sid": 800816239947337,
+					"parameters": {
+						"object": "diamanteiara"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "diamanteiara",
+					"sid": 235490545977131
+				}
+			],
+			"sid": 915152252453197
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Sprite13",
+					"sid": 631231094651293,
+					"parameters": {
+						"object": "Sprite14"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "Sprite14",
+					"sid": 468559441358132
+				}
+			],
+			"sid": 249458446981782
 		}
 	],
 	"sid": 262391851004518

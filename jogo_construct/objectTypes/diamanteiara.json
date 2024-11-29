@@ -1,0 +1,67 @@
+{
+	"name": "diamanteiara",
+	"plugin-id": "Sprite",
+	"sid": 254038495942558,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 1052,
+						"height": 812,
+						"originX": 0.5,
+						"originY": 1,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"fileType": "image/png",
+						"imageSpriteId": 9647128,
+						"collisionPoly": {
+							"points": [
+								0.28612167300380226,
+								0.0012315270935960591,
+								0.7138783269961977,
+								0.0012315270935960591,
+								0.8279467680608364,
+								0.07512315270935961,
+								0.9990494296577946,
+								0.29679802955665024,
+								0.9990494296577946,
+								0.3706896551724138,
+								0.970532319391635,
+								0.4445812807881773,
+								0.5427756653992395,
+								0.9987684729064039,
+								0.45722433460076045,
+								0.9987684729064039,
+								0.029467680608365018,
+								0.4445812807881773,
+								0.0009505703422053232,
+								0.3706896551724138,
+								0.0009505703422053232,
+								0.29679802955665024,
+								0.1720532319391635,
+								0.07512315270935961
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1,
+						"tag": ""
+					}
+				],
+				"sid": 989980013534161,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

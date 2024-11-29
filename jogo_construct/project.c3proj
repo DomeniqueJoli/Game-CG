@@ -100,7 +100,15 @@
 			"element_escada",
 			"diamante_vermelho",
 			"Sprite12",
-			"Sprite13"
+			"Sprite13",
+			"diamanteiara",
+			"ramoVermelho",
+			"ramoVerde",
+			"ramoverde2",
+			"ramoVermelhoP",
+			"portao",
+			"Sprite14",
+			"portalNovo"
 		],
 		"subfolders": []
 	},
