@@ -24,7 +24,6 @@ self.C3_GetObjectRefTable = function () {
 		C3.Plugins.System.Acts.RestartLayout,
 		C3.Plugins.System.Acts.GoToLayout,
 		C3.Plugins.Mouse.Cnds.OnObjectClicked,
-		C3.Plugins.Mouse.Cnds.OnClick,
 		C3.Behaviors.EightDir.Cnds.IsMoving
 	];
 };
@@ -77,6 +76,7 @@ self.C3_JsPropNameTable = [
 	{portao: 0},
 	{Sprite14: 0},
 	{portalNovo: 0},
+	{iara: 0},
 	{vida: 0}
 ];
 
@@ -123,5 +123,6 @@ self.InstanceType = {
 	ramoVermelhoP: class extends self.ISpriteInstance {},
 	portao: class extends self.ISpriteInstance {},
 	Sprite14: class extends self.ISpriteInstance {},
-	portalNovo: class extends self.ISpriteInstance {}
+	portalNovo: class extends self.ISpriteInstance {},
+	iara: class extends self.ISpriteInstance {}
 }
