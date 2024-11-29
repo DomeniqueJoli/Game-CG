@@ -74,16 +74,26 @@
 			"eventType": "block",
 			"conditions": [
 				{
-					"id": "on-click",
+					"id": "on-object-clicked",
 					"objectClass": "Mouse",
-					"sid": 957850437386663,
+					"sid": 234909324296778,
 					"parameters": {
 						"mouse-button": "left",
-						"click-type": "clicked"
+						"click-type": "clicked",
+						"object-clicked": "iara"
 					}
 				}
 			],
-			"actions": [],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 620227772077228,
+					"parameters": {
+						"layout": "TelaIara"
+					}
+				}
+			],
 			"sid": 135394463655617
 		}
 	],
