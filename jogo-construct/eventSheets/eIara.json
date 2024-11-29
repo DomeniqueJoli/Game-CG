@@ -180,6 +180,30 @@
 				}
 			],
 			"sid": 249458446981782
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Sprite13",
+					"sid": 185619590837649,
+					"parameters": {
+						"object": "portalNovo"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 566862414892931,
+					"parameters": {
+						"layout": "TelaLevels"
+					}
+				}
+			],
+			"sid": 598972393354646
 		}
 	],
 	"sid": 262391851004518
